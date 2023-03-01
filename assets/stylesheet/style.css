@@ -303,6 +303,12 @@ h3 {
 .sidebar{
 	background-color: orangered;
 	padding: 52px;
+	flex: 0 1 20%;
+	align-self: stretch;
+	border-radius: 6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .sidebar-aside {
 	display: flex;
@@ -327,9 +333,31 @@ h3 {
 	font-size: 12px;
 }
 .pic {
-	width: 50%;
-	height: 500px;
+	width: 42%;
+	height: 600px;
+	border: 1px solid black;
+	margin: 22px;
+	object-fit: cover;
+	vertical-align: top;
+	border-radius: 8px;
+
+}
+.sidebar-heading{
+	color: white;
+	font-size: 20px;
+	padding-bottom: 12px;
 }
 .section {
-	padding: 60px;
+	padding: 80px;
+	font-size: 16px;
+}
+.two{
+	height: 700px;
+}
+.three{
+	height: 300px;
+	vertical-align: middle
+}
+.icons{
+	color: #ffffff;
 }
